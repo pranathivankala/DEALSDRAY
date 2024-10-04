@@ -1,0 +1,93 @@
+/* EmployeeList.css */
+
+.employee-list-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    /* background-color: #f1f1f1; */
+    border: 1px solid #ccc;
+}
+
+.employee-list-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #ffd700;
+    padding: 10px;
+    color: #333;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.create-btn {
+    background-color: #99cc66;
+    padding: 10px 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.create-btn:hover {
+    background-color: #88b45b;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-container input {
+    padding: 8px;
+    width: 250px;
+    margin-left: 10px;
+}
+
+.employee-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    text-align: left;
+}
+
+.employee-table th, .employee-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.employee-table th {
+    background-color: #add8e6;
+    color: #333;
+}
+
+.employee-table td {
+    background-color: #fff;
+}
+
+.employee-table a {
+    color: blue;
+    text-decoration: none;
+}
+
+.employee-table a:hover {
+    text-decoration: underline;
+}
+
+.profile-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.edit-btn, .delete-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #007bff;
+}
+
+.edit-btn:hover, .delete-btn:hover {
+    text-decoration: underline;
+}

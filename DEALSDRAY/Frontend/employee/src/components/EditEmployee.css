@@ -1,0 +1,52 @@
+.edit-employee-container {
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.edit-employee-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.edit-employee-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.edit-employee-container input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.edit-employee-container input:focus {
+    border-color: #007bff; /* Highlight the border when focused */
+    outline: none;
+}
+
+.edit-employee-container button {
+    padding: 10px;
+    background-color: #007bff; /* Primary button color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.edit-employee-container button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.edit-employee-container button:disabled {
+    background-color: #ccc; /* Disabled button color */
+    cursor: not-allowed;
+}
